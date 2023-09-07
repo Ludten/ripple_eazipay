@@ -1,6 +1,7 @@
 branches:
   only:
   - main
+  - deployment
 
 services:
   - docker
@@ -14,6 +15,7 @@ before_script:
   - echo "no tests"
 
 script:
+  - cp -r simple_mongo/src/schema-and-models/* simple_graphql/src/schema-and-models
   - docker build -t simple_graphql ./simple_graphql
   - docker build -t simple_mongo ./simple_mongo
   # Tagging

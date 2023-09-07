@@ -10,9 +10,4 @@ interface Book extends Document {
   Author: string;
 }
 
-interface flute extends Document {
-  Title: string;
-  Author: string;
-}
-
 export { User, Book };
