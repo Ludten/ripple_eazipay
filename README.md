@@ -68,29 +68,26 @@ Before you begin, ensure you have the following prerequisites installed:
    cd ../simple_mongo
 
    npm install
-2. Usage
 
-    Detailed usage instructions for each service can be found in their respective directories (basic-graphql-backend and schema-and-models). Refer to their individual README files for more information.
+ ### Usage
+     Detailed usage instructions for each service can be found in their respective directories (basic-graphql-backend and schema-and-models). Refer to their individual README files for more information.
 
-3. Authentication
-
+### Authentication
     The basic-graphql-backend service provides user authentication using JWT tokens. See its README for details on how to authenticate users and access protected routes.
 
-4. Schema and Models Updates
-
+### Schema and Models Updates
     The schema-and-models service manages GraphQL type definitions and MongoDB schema models. Ensure that it's integrated into your deployment workflow to keep your GraphQL API up-to-date.
 
-5. Deployment
-
+### Deployment
     Instructions for deploying each service depend on your specific hosting environment. Ensure you configure deployment scripts and environment variables as needed for production deployment.
 
-6. Contributing
-     We welcome contributions to this repository. To contribute, please follow these guidelines:
-       Fork the repository and create a new branch.
-       Make your changes and submit a pull request.
-       Follow the project's coding standards and conventions.
-
-7. License
+### Contributing
+    We welcome contributions to this repository. To contribute, please follow these guidelines:
+      Fork the repository and create a new branch.
+      Make your changes and submit a pull request.
+      Follow the project's coding standards and conventions.
+      
+### License
     This project is licensed under the MIT License
    
 
