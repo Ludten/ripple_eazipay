@@ -1,8 +1,5 @@
 
-### README.md for Schema and Models Update Service
-
-```markdown
-# Schema and Models Update Service
+# README.md for Schema and Models Update Service
 
 This service is responsible for managing MongoDB schema models and GraphQL type definitions updates. It helps ensure schema consistency and maintain the GraphQL API's data models.
 
@@ -46,15 +43,16 @@ Before you begin, ensure you have the following prerequisites installed:
 
 2. Change into the project directory:
 
-  ```bash
-  cd ripple_eazipay
+   ```bash
+   cd ripple_eazipay
 
-  cd simple_mongo
+   cd simple_mongo
 
 3. Install dependencies:
 
-  ```bash
+    ```bash
     npm install
+
 
 ### Usage
 
